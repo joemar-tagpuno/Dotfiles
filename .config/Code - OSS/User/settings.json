@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "*.inc": "php",
+        "*.phps": "php"
+    },
+    "editor.fontFamily": "'Operator Mono Medium', 'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "editor.lineHeight": 26,
+    "editor.padding.bottom": 4,
+    "editor.padding.top": 4,
+    "editor.fontWeight": "100",
+    "editor.cursorStyle": "underline",
+    "editor.minimap.enabled": false,
+    "terminal.external.linuxExec": "/usr/bin/zsh",
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.cursorBlinking": true,
+    "window.zoomLevel": 0,
+    "terminal.explorerKind": "external",
+    "terminal.integrated.cursorWidth": 4,
+    "terminal.integrated.cursorStyle": "underline",
+    "sync.gist": "c2604802c47843ef56459aaaef15bde2",
+    "http.proxyAuthorization": null,
+}
