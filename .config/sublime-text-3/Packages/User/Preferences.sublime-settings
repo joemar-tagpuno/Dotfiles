@@ -1,7 +1,7 @@
 {
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"font_face": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
 	"font_options":
 	[
@@ -26,6 +26,6 @@
 	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
 	"overlay_scroll_bars": "enabled",
-	"theme": "Material-Theme-Palenight.sublime-theme",
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"update_check": false
 }

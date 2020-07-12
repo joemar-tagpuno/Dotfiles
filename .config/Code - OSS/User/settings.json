@@ -4,7 +4,7 @@
         "*.phps": "php"
     },
     "editor.fontFamily": "'Operator Mono Medium', 'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
-    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "workbench.colorTheme": "Material Theme Darker",
     "workbench.iconTheme": "eq-material-theme-icons-palenight",
     "editor.lineHeight": 26,
     "editor.padding.bottom": 4,
@@ -21,4 +21,5 @@
     "terminal.integrated.cursorStyle": "underline",
     "sync.gist": "c2604802c47843ef56459aaaef15bde2",
     "http.proxyAuthorization": null,
+    "window.menuBarVisibility": "toggle",
 }
