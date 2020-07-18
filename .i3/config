@@ -290,8 +290,8 @@ exec --no-startup-id start_conky_maia
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id $HOME/.local/bin/mount_files.sh
+# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# exec_always --no-startup-id $HOME/.local/bin/mount_files.sh
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -332,8 +332,8 @@ bar {
 
 ### please set your primary output first. Example: 'xrandr --output eDP1 --primary'
     strip_workspace_numbers yes
+    tray_output primary
 
-#   tray_output primary
 #	bindsym button4 nop
 #	bindsym button5 nop
 #   font xft:URWGothic-Book 8
@@ -346,7 +346,7 @@ bar {
 #                         border  backgr. text
        focused_workspace  #ffb52a #2C2C2C #F67F03 
        active_workspace   #dc9656 #353836 #f7ca88
-       inactive_workspace #595B5B #222D31 #EEE8D5
+       inactive_workspace #202020 #2C2C2C #EEE8D5
        binding_mode       #dc9656 #2C2C2C #ffb52a
        urgent_workspace   #bd2c40 #FDF6E3 #E5201D
    }
