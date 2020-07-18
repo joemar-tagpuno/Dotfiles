@@ -1,5 +1,3 @@
-# Most of the config here is copied from DT Derek Taylor of DistroTube (http://www.youtube.com/c/DistroTube)
-#
 # My termite config for ma Manjaro CE i3
  
 [options]
@@ -48,9 +46,9 @@ cursor_shape = underline
 #cursor_foreground = #dcdccc
 
 [colors]
-foreground = #c0c5ce
-foreground_bold = #eee8d5
-cursor = #c0c5ce
+foreground = #d8d8d8
+foreground_bold = #d8d8d8
+cursor = #d8d8d8
 # background transparency (requires a compositor)
 background = rgba(29, 35, 48, 0.90)
 
@@ -58,22 +56,30 @@ background = rgba(29, 35, 48, 0.90)
 #highlight = #839496
 
 # colors from color0 to color254 can be set
-color0 = #1D2330
-color1 = #645377
-color2 = #AD69AF
-color3 = #B1B5C8
-color4 = #92969d
-color5 = #645377
-color6 = #AD69AF
-color7 = #B1B5C8
-color8 = #4B5665
-color9 = #84598D
-color10 = #7B8290
-color11 = #d1d7e1
-color12 = #4B5665
-color13 = #84598D
-color14 = #7B8290
-color15 = #d1d7e1
+color0  = #181818
+color1  = #ab4642
+color2  = #a1b56c
+color3  = #f7ca88
+color4  = #7cafc2
+color5  = #ba8baf
+color6  = #86c1b9
+color7  = #d8d8d8
+color8  = #585858
+color9  = #ab4642
+color10 = #a1b56c
+color11 = #f7ca88
+color12 = #7cafc2
+color13 = #ba8baf
+color14 = #86c1b9
+color15 = #f8f8f8
+
+# 256 color space
+color16 = #dc9656
+color17 = #a16946
+color18 = #282828
+color19 = #383838
+color20 = #b8b8b8
+color21 = #e8e8e8
 
 [hints]
 #font = Monospace 12

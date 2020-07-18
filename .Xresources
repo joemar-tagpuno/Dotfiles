@@ -6,9 +6,9 @@ Xft.autohint:  false
 Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
-XTerm*background:        #222D31
+XTerm*background:        rgba(29, 35, 48, 0.90)
 XTerm*foreground:        #d8d8d8
-XTerm*pointerColor:      #1ABB9B
+XTerm*pointerColor:      #f7ca88
 XTerm*faceName:          Dejavu Sans Mono For Powerline
 XTerm*faceSize:          9
 XTerm*reverseVideo:      on
@@ -18,12 +18,12 @@ XTerm*selectToClipboard: true
 *foreground:                      #d8d8d8
 *fading:                          8
 *fadeColor:                       black
-*cursorColor:                     #1ABB9B
+*cursorColor:                     #d8d8d8
 *pointerColorBackground:          #2B2C2B
-*pointerColorForeground:          #16A085
+*pointerColorForeground:          #f7ca88
 
 !! black dark/light
-*color0:                          #222D31
+*color0:                          #181818
 *color8:                          #585858
 
 !! red dark/light
@@ -31,8 +31,8 @@ XTerm*selectToClipboard: true
 *color9:                          #ab4642
 
 !! green dark/light
-*color2:                          #7E807E
-*color10:                         #8D8F8D
+*color2:                          #a1b56c
+*color10:                         #a1b56c
 
 !! yellow dark/light
 *color3:                          #f7ca88
@@ -47,8 +47,8 @@ XTerm*selectToClipboard: true
 *color13:                         #ba8baf
 
 !! cyan dark/light
-*color6:                          #1ABB9B
-*color14:                         #1ABB9B
+*color6:                          #86c1b9
+*color14:                         #86c1b9
 
 !! white dark/light
 *color7:                          #d8d8d8
@@ -58,7 +58,7 @@ Xcursor.theme: Maia-Cursor
 Xcursor.size:                     0
 
 
-URxvt*font: 			  xft:DejaVu Sans Mono For Powerline:autohint=true:size=9
+URxvt*font: 			          xft:DejaVu Sans Mono For Powerline:autohint=true:size=9
 URxvt.font:                       xft:DejaVu Sans Mono For Powerline:autohint=true:size=9
 URxvt.boldFont:                   xft:DejaVu Sans Mono For Powerline:autohint=true:bold:size=9
 URxvt.italicFont:                 xft:DejaVu Sans Mono For Powerline:autohint=true:italic:size=9
