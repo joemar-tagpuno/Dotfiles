@@ -7,62 +7,61 @@ Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
 XTerm*background:        rgba(29, 35, 48, 0.90)
-XTerm*foreground:        #d8d8d8
+XTerm*foreground:        #f7ca88
 XTerm*pointerColor:      #f7ca88
 XTerm*faceName:          Dejavu Sans Mono For Powerline
 XTerm*faceSize:          9
 XTerm*reverseVideo:      on
 XTerm*selectToClipboard: true
 
-*background:                      #222D31
-*foreground:                      #d8d8d8
+! special
+*.foreground:   #dddfde
+*.background:   #1d1f21
+*.cursorColor:  #dddfde
 *fading:                          8
 *fadeColor:                       black
-*cursorColor:                     #d8d8d8
 *pointerColorBackground:          #2B2C2B
 *pointerColorForeground:          #f7ca88
 
-!! black dark/light
-*color0:                          #181818
-*color8:                          #585858
+! black
+*.color0:       #1d1f21
+*.color8:       #FFC22E
 
-!! red dark/light
-*color1:                          #ab4642
-*color9:                          #ab4642
+! red
+*.color1:       #cc6666
+*.color9:       #cc6666
 
-!! green dark/light
-*color2:                          #a1b56c
-*color10:                         #a1b56c
+! green
+*.color2:       #ccd571
+*.color10:      #b5bd68
 
-!! yellow dark/light
-*color3:                          #f7ca88
-*color11:                         #f7ca88
+! yellow
+*.color3:       #efbb55
+*.color11:      #f0c674
 
-!! blue dark/light
-*color4:                          #7cafc2
-*color12:                         #7cafc2
+! blue
+*.color4:       #81a2be
+*.color12:      #81a2be
 
-!! magenta dark/light
-*color5:                          #ba8baf
-*color13:                         #ba8baf
+! magenta
+*.color5:       #b294bb
+*.color13:      #b294bb
 
-!! cyan dark/light
-*color6:                          #86c1b9
-*color14:                         #86c1b9
+! cyan
+*.color6:       #8abeb7
+*.color14:      #8abeb7
 
-!! white dark/light
-*color7:                          #d8d8d8
-*color15:                         #f8f8f8
+! white
+*.color7:       #c5c8c6
+*.color15:      #ffffff
 
 Xcursor.theme: Maia-Cursor
 Xcursor.size:                     0
 
-
-URxvt*font: 			          xft:DejaVu Sans Mono For Powerline:autohint=true:size=9
-URxvt.font:                       xft:DejaVu Sans Mono For Powerline:autohint=true:size=9
-URxvt.boldFont:                   xft:DejaVu Sans Mono For Powerline:autohint=true:bold:size=9
-URxvt.italicFont:                 xft:DejaVu Sans Mono For Powerline:autohint=true:italic:size=9
-URxvt.boldItalicFont:             xft:DejaVu Sans Mono For Powerline:autohint=true:bold:italic:size=9
+URxvt.font:                       xft:Dejavu Sans Mono For Powerline:size=9:Regular:autohint=true,xft:Fira Code:size=11:antialias=true:pixelsize=11
+URxvt.boldFont:                   xft:Dejavu Sans Mono For Powerline:size=9:bold:autohint=true,xft:Fira Code:size=11:antialias=true:pixelsize=11
+URxvt.italicFont:                 xft:Dejavu Sans Mono For Powerline:autohint=true:italic:size=9
+URxvt.boldItalicFont:             xft:Dejavu Sans Mono For Powerline:autohint=true:bold:italic:size=9
 
 ! alternative font settings with 'terminus':
 ! URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
@@ -75,7 +74,7 @@ URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
 URxvt*background:                 black
-URxvt*foreground:                 grey
+URxvt*foreground:                 orange
 URxvt*saveLines:                  5000
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
@@ -244,3 +243,12 @@ URxvt.resize-font.bigger:	  C-k
 ! -xos4-terminus-bold-r-normal--24-240-72-72-c-120-iso10646-1
 ! -xos4-terminus-bold-r-normal--28-280-72-72-c-140-iso10646-1
 ! -xos4-terminus-bold-r-normal--32-320-72-72-c-160-iso10646-1
+
+!# ------------------------------------------------------------------------------
+!# ROFI Color theme 2
+!# ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: argb:cc2f343f, argb:cc2f343f, argb:cc2f343f
+rofi.color-normal: argb:002f343f, #d8dee8, argb:002f343f, argb:002f343f, #e7763a
+rofi.color-active: #393939, #268bd2, #393939, #268bd2, #205171
+rofi.color-urgent: #393939, #f3843d, #393939, #268bd2, #ffc39c

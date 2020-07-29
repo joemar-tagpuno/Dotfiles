@@ -46,7 +46,7 @@ cursor_shape = underline
 #cursor_foreground = #dcdccc
 
 [colors]
-foreground = #d8d8d8
+foreground = #f7ca88
 foreground_bold = #d8d8d8
 cursor = #d8d8d8
 # background transparency (requires a compositor)

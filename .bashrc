@@ -143,3 +143,12 @@ export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1
 
 # dotfiles git bare repository alias 
 alias config='/usr/bin/git --git-dir=/home/${USER}/.myconfig/ --work-tree=/home/${USER}'
+
+# PhpStorm alias
+alias phpstorm='/home/${USER}/.local/share/JetBrains/Toolbox/apps/PhpStorm/ch-0/201.8743.18/bin/phpstorm.sh'
+
+# WebStorm alias
+alias webstorm='/home/${USER}/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/201.8743.9/bin/webstorm.sh'
+
+# Neofetch
+neofetch
