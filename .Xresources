@@ -9,8 +9,8 @@ Xft.lcdfilter: lcddefault
 XTerm*background:        rgba(29, 35, 48, 0.90)
 XTerm*foreground:        #f7ca88
 XTerm*pointerColor:      #f7ca88
-XTerm*faceName:          Dejavu Sans Mono For Powerline
-XTerm*faceSize:          9
+XTerm*faceName:          MesloLGS NF
+XTerm*faceSize:          10
 XTerm*reverseVideo:      on
 XTerm*selectToClipboard: true
 
@@ -58,10 +58,11 @@ XTerm*selectToClipboard: true
 Xcursor.theme: Maia-Cursor
 Xcursor.size:                     0
 
-URxvt.font:                       xft:Dejavu Sans Mono For Powerline:size=9:Regular:autohint=true,xft:Fira Code:size=11:antialias=true:pixelsize=11
-URxvt.boldFont:                   xft:Dejavu Sans Mono For Powerline:size=9:bold:autohint=true,xft:Fira Code:size=11:antialias=true:pixelsize=11
-URxvt.italicFont:                 xft:Dejavu Sans Mono For Powerline:autohint=true:italic:size=9
-URxvt.boldItalicFont:             xft:Dejavu Sans Mono For Powerline:autohint=true:bold:italic:size=9
+URxvt*font: 			          xft:MesloLGS NF:autohint=true:size=10
+URxvt.font:                       xft:MesloLGS NF:autohint=true:size=10
+URxvt.boldFont:                   xft:MesloLGS NF:autohint=true:bold:size=10
+URxvt.italicFont:                 xft:MesloLGS NF:autohint=true:italic:size=10
+URxvt.boldItalicFont:             xft:MesloLGS NF:autohint=true:bold:italic:size=10
 
 ! alternative font settings with 'terminus':
 ! URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
@@ -69,7 +70,7 @@ URxvt.boldItalicFont:             xft:Dejavu Sans Mono For Powerline:autohint=tr
 !! terminus names see end of file!
 
 URxvt.depth:                      32
-URxvt.background:                 [70]#222D31
+URxvt.background:                 #222D31
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
 URxvt*cursorBlink:                true
