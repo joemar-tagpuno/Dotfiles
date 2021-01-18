@@ -22,4 +22,5 @@
     "sync.gist": "8c79cc9c56fd000095b828136c141f3c",
     "http.proxyAuthorization": null,
     "window.menuBarVisibility": "toggle",
+    "diffEditor.renderSideBySide": false,
 }

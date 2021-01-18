@@ -220,3 +220,5 @@ alias webstorm='/home/${USER}/.local/share/JetBrains/Toolbox/apps/WebStorm/ch-0/
 
 # Neofetch
 neofetch
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
